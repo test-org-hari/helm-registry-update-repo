@@ -1,0 +1,9 @@
+apiVersion: v2
+name: consumer-chart
+version: 0.1.0
+appVersion: "1.0"
+
+dependencies:
+  - name: mychart
+    version: "0.1.0"      # Starting version you want to track/update
+    repository: "https://jfrogghdemo.jfrog.io/artifactory/api/helm/dependabot-helm-hari"
