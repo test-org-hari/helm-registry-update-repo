@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "helm"
+    directory: "/"           # location of your Chart.yaml
+    schedule:
+      interval: "daily"
